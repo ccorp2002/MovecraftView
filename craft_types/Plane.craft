@@ -1,0 +1,307 @@
+name: Plane
+maxSize: 1200
+minSize: 12
+
+allowedBlocks:
+  - end rod
+  - chain
+  - oxidized copper
+  - torch
+  - stonecutter
+  - weathered copper
+  - exposed copper
+  - copper block
+  - oxidized cut copper
+  - weathered cut copper
+  - exposed cut copper
+  - cut copper
+  - oxidized cut copper stairs
+  - weathered cut copper stairs
+  - exposed cut copper stairs
+  - cut copper stairs
+  - oxidized cut copper slab
+  - weathered cut copper slab
+  - exposed cut copper slab
+  - cut copper slab
+  - waxed copper block
+  - waxed weathered copper
+  - waxed exposed copper
+  - waxed oxidized copper
+  - waxed oxidized cut copper
+  - waxed weathered cut copper
+  - waxed exposed cut copper
+  - waxed cut copper
+  - waxed oxidized cut copper stairs
+  - waxed weathered cut copper stairs
+  - waxed exposed cut copper stairs
+  - waxed cut copper stairs
+  - waxed oxidized cut copper slab
+  - waxed weathered cut copper slab
+  - waxed exposed cut copper slab
+  - waxed cut copper slab
+  - lightning rod
+
+  - MUSHROOM STEM
+  - BLAST FURNACE
+  - SMOKER
+  - "all glass, stained glass, and tinted glass"
+  - "all planks"
+  - "all banners"
+  - "all slabs"
+  - "all slabs"
+  - "all wool"
+  - "all carpets"
+  - "all signs"
+  - "all doors"
+  - "all pressure plates"
+  - "all buttons"
+  - "all wool"
+  - "all carpets"
+  - "all walls"
+  - "all fence gates"
+  - "all walls"
+  - "all carpets"
+  - "all wool"
+  - "all carpets"
+  - "all trapdoors"
+  - "all stairs"
+  - "all trapdoors"
+  - "all fences"
+  - "all glass, stained glass, and tinted glass"
+  - "all planks"
+  - "all banners"
+  - "all slabs"
+  - "all slabs"
+  - "all wool"
+  - "all carpets"
+  - "all signs"
+  - "all doors"
+  - "all pressure plates"
+  - "all buttons"
+  - "all wool"
+  - "all carpets"
+  - "all walls"
+  - "all fence gates"
+  - "all walls"
+  - "all carpets"
+  - "all wool"
+  - "all carpets"
+  - "all trapdoors"
+  - "all stairs"
+  - "all trapdoors"
+  - "all fences"
+
+  - TARGET
+  - GRINDSTONE
+  - OBSERVER
+  - CRAFTING TABLE
+  - PURPUR PILLAR
+  - QUARTZ BLOCK
+ 
+
+ 
+  - GLASS
+  - LAPIS BLOCK
+  - DISPENSER
+  - NOTE BLOCK
+  - WHITE BED
+  - ORANGE BED
+  - MAGENTA BED
+  - LIGHT BLUE BED
+  - YELLOW BED
+  - LIME BED
+  - PINK BED
+  - GRAY BED
+  - LIGHT GRAY BED
+  - CYAN BED
+  - PURPLE BED
+  - BLUE BED
+  - BROWN BED
+  - GREEN BED
+  - RED BED
+  - BLACK BED
+  - STICKY PISTON
+ 
+
+  - PISTON
+ 
+ 
+  - MAGMA BLOCK
+  - GOLD BLOCK
+  - IRON BLOCK
+ 
+  - BOOKSHELF
+ 
+  - TORCH
+  - FIRE
+  - OAK STAIRS
+  - BIRCH STAIRS
+  - JUNGLE STAIRS
+  - SPRUCE STAIRS
+  - STONE BRICK STAIRS
+  - QUARTZ STAIRS
+  - NETHER BRICK STAIRS
+  - CHEST
+  - REDSTONE WIRE
+
+  - NETHER BRICK STAIRS
+  - FURNACE
+ 
+  - LADDER
+ 
+  - LEVER
+ 
+  - REDSTONE TORCH
+  - REDSTONE WALL TORCH
+ 
+
+  - SEA LANTERN
+  - GLOWSTONE
+  - CAKE
+  - REPEATER
+ 
+ 
+
+ 
+  - IRON BARS
+  - GLASS PANE
+
+ 
+  - ENCHANTING TABLE
+  - BREWING STAND
+  - CAULDRON
+  - REDSTONE LAMP
+  - ENDER CHEST
+  - TRIPWIRE HOOK
+  - IRON BLOCK
+  - COBBLESTONE WALL
+  - MOSSY COBBLESTONE WALL
+  - FLOWER POT
+  - CHEST
+  - COMPARATOR
+  - DAYLIGHT DETECTOR
+  - REDSTONE BLOCK
+  - HOPPER
+  - QUARTZ BLOCK
+  - QUARTZ BRICKS
+  - QUARTZ PILLAR
+  - DROPPER
+ 
+  - "all stained glass panes"
+  - SLIME BLOCK
+ 
+  - BARREL
+  - PISTON
+  - STICKY PISTON
+  - QUARTZ BLOCK
+  - QUARTZ BRICKS
+  - QUARTZ PILLAR
+  - QUARTZ PILLAR
+  - SMOOTH QUARTZ
+  - LANTERN
+  - LANTERN
+  - SOUL LANTERN
+  - SOUL LANTERN
+  - CHISELED QUARTZ BLOCK
+
+
+
+
+
+
+
+canFly: true
+
+
+canCruise: true
+gearShiftsAffectDirectMovement: true
+gearShiftsAffectTickCooldown: false
+gearShiftsAffectCruiseSkipBlocks: true
+
+canDirectControl: true
+lockPilotAtDirectControl: true
+halfSpeedUnderwater: false
+vertCruiseSpeed: 3.0
+cruiseSkipBlocks: 1
+vertCruiseSkipBlocks: 2
+rotateAtMidpoint: false
+allowCannonDirectorSign: true
+#canDirectControl: false
+allowAADirectorSign: true
+
+
+canCruise: true
+gearShiftsAffectDirectMovement: true
+gearShiftsAffectTickCooldown: false
+gearShiftsAffectCruiseSkipBlocks: true
+
+canDirectControl: true
+lockPilotAtDirectControl: true
+halfSpeedUnderwater: false
+vertCruiseSpeed: 3.0
+cruiseSpeed: 12.0
+detectionMultiplier: 25.0
+underwaterDetectionMultiplier: 25.0
+canTeleport: false
+maxHeightLimit: 195
+minHeightLimit: 0
+maxHeightAboveGround: 195
+#collisionExplosion: 0.1
+fuelBurnRate: 0.5
+chestPenalty: 0.5
+overallSinkPercent: 85.0
+detectionMultiplier: 20.0
+underwaterDetectionMultiplier: 2.0
+smokeOnSink: 1
+keepMovingOnSink: true
+dynmaicFlyBlock: MAGMA BLOCK
+canStaticMove: false
+dynamicFlyBlockSpeedFactor: 1.1
+speed: 7.5
+sinkSpeed: 4.0
+explodeOnCrash: 6.0
+moveEntities: true
+onlyMovePlayers: false
+tryNudge: false
+sinkPercent: 75.0
+gearShifts: 4
+
+
+forbiddenBlocks:
+  - BARRIER
+
+passthroughBlocks:
+  - cave air
+  - snow
+  - snow block
+  - cobweb
+  - water
+  - lava
+  - "all flowers"
+  - "all fire"
+  - "all flower pots"
+  - "all ice"
+  - "all leaves"
+  - "all saplings"
+
+  - "all rails"
+
+moveblocks:
+  "redstone blocks / sea lanterns":
+    - 7.5
+    - 100.0
+
+flyblocks:
+  "ender chests / anvils / enchantment tables":
+    - 0.0
+    - 1.125
+
+  "all wools and carpets":
+    - 30.0
+    - 100.0
+  DISPENSER:
+    - 0.0
+    - 5.0
+  "all chests and barrels":
+    - 0.0
+    - 2.5
