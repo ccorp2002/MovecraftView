@@ -1,3 +1,3 @@
 <?php
-  include ("MovecraftView_example.php");
+  include ("MovecraftView_main.php");
 ?>
