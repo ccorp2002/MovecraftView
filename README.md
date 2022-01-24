@@ -1,15 +1,14 @@
 # PHP-CraftType-Viewer
-A Movecraft Vehicle/CraftType file Viewer. Resurrected from: https://github.com/mwkaicz/MovecraftView
-
+A Movecraft Vehicle/CraftType file Viewer.
 # Suggested Usage
 Also keep in mind it does *NOT* parse/read Minecraft Tags what-so-ever;
 If you want to display a craft using all different types of Wool/Planks/Whatever:
 Rather than `"#minecraft:wool"` or `"#glazed_terracotta"`, write `"All Wool Colors"` or `"All Glazed Terracotta"` for User-Readability.
 (Keep versions of In-game craft files separate from the Website/User Read versions too!)
 
+(Example Site: https://starmap.zapto.org/craftdata/)
 
-
-(Forked From MovecraftView)
+Resurrected from: https://github.com/mwkaicz/MovecraftView
 ```
 =============
 
